@@ -1,3 +1,21 @@
+Structure of a recrusive funtion
+
+```cpp
+recursive(Param, &refParam) {
+
+    // 1. Base Case
+    if (baseCondition)
+        return;
+
+    // 2. Work
+
+    recursive(Param, refParam);
+
+    // 4. Backtracking / Remaining Work (if required)
+
+}
+```
+
 ```cpp
 #include <iostream>
 using namespace std;
@@ -29,9 +47,7 @@ Call 1 starts
         Call 3 starts
         Call 3 finishes
 
-    Call 2 resumes
     Call 2 finishes
 
-Call 1 resumes
 Call 1 finishes
 ```
