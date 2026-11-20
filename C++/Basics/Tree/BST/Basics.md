@@ -1,3 +1,8 @@
+### What is BST
+
+- Binary Search Tree = right side > root > left side
+- **Inorder** of BST is always in **sorted order**
+
 ### Class & Constructor
 
 ```cpp
@@ -45,6 +50,12 @@ node *insertIntoBST(node *&root, int d)
 }
 
 ```
+
+| Insertion Complexities | Average Case         | Worst Case       |
+| :--------------------- | :------------------- | :--------------- |
+| **Time Complexity**    | O(log N)             | O(N)             |
+| **Space Complexity**   | O(log N) (recursive) | O(N) (recursive) |
+|                        | O(1) (iterative)     | O(1) (iterative) |
 
 ```cpp
 void takeInput(node *root)
